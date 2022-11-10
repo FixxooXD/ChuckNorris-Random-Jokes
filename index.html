@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <script defer src="src/script.js"></script>
+    <title>Chuck Norris</title>
+    <style>
+      .jokeContainer {
+        background-color: rgb(51, 55, 59);
+      }
+      body {
+        background-color: rgb(37, 38, 39);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="absolute border-b-2 w-full py-1 text-3xl pl-4 text-white">
+      ChuckNorris Jokes
+    </div>
+    <div class="h-screen flex flex justify-center items-center">
+      <div class="jokeContainer w-1/2 sm:h-40 rounded-lg">
+        <div class="contentContainer mx-2 pt-3 h-24 text-white">
+          <p id="Joke">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+            laboriosam consequatur. Eum ad consequatur perspiciatis numquam ipsa
+            reprehenderit cum aspernatur?
+          </p>
+        </div>
+        <div class="flex justify-end mx-4">
+          <button id="Btn" class="border-2 px-4 py-1 text-white">
+            Get Jokes
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
